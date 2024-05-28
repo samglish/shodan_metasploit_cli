@@ -18,7 +18,7 @@ pip install -U --user shodan
 ```terminal
 shodan
 ```
-3. Finally, initialize the Shodan CLI with your <a href="">API key</a>
+3. Finally, initialize the Shodan CLI with <a href="https://account.shodan.io/">your API key</a>
 ```
 shodan init YOUR_API_KEY
 ```
