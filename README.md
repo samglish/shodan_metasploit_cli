@@ -140,6 +140,7 @@ Next, you paste that copied IP:port combo into any web browser URL bar.
 my script  `samglish_shodan.sh`
 <hr>
 
+
 └──╼ $bash /home/samglish/Desktop/vb.sh 
 ***********************************************************
 *                   Ethical Hacking                       *
