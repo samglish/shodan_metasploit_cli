@@ -25,7 +25,21 @@ echo " 8. Scan sensors"
 read -p "Choix : " choix
 if [ $choix -eq 1 ];
 then
-sudo beef-xss
-else 
-exit
+shodan myip
+else if [ $choix -eq 2 ];
+shodan search 'product:"webcam"'
+else if [ $choix -eq 3 ];
+shodan search 'product:"server"'
+else if [ $choix -eq 4 ];
+shodan search 'product:"router"'
+else if [ $choix -eq 5 ];
+shodan search 'product:"printer"'
+else if [ $choix -eq 6 ];
+shodan search 'product:"switch"'
+else if [ $choix -eq 7 ];
+shodan search 'product:"camera"'
+else if [ $choix -eq 8 ];
+shodan search 'product:"sensor"'
+else
+echo "Error"
 fi
