@@ -138,3 +138,27 @@ Next, you paste that copied IP:port combo into any web browser URL bar.
 <hr>
 
 my script  `samglish_shodan.sh`
+<hr>
+└──╼ $bash /home/samglish/Desktop/vb.sh 
+***********************************************************
+*                   Ethical Hacking                       *
+*           VULNERABILITY SHODAN METASPLOIT               *
+*                       Samglish                          *
+***********************************************************
+Installing tools...
+------------------------------------------------------------
+***TheHarvester***
+Please wait...
+ 
+set Your API_KEY your_api_key           
+Error: Invalid API key
+ 
+ 1. show my IP
+ 2. Scan webcams
+ 3. Scan servers
+ 4. Scan routers
+ 5. Scan printers
+ 6. Scan switches
+ 7. Scan cameras
+ 8. Scan sensors
+Choix : 
