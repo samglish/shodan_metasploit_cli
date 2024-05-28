@@ -125,7 +125,12 @@ set your API KEY
 ```terminal
 msf6 auxiliary(gather/shodan_search) > set SHODAN_APIKEY  Your_API_KEY
 ```
+<<<<<<< HEAD
 
 ```terminal
 msf6 auxiliary(gather/shodan_search) > set QUERY webcams
+```
+
+```terminal
+msf6 auxiliary(gather/shodan_search) > exploit
 ```
