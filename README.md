@@ -133,4 +133,4 @@ msf6 auxiliary(gather/shodan_search) > set QUERY webcams
 ```terminal
 msf6 auxiliary(gather/shodan_search) > exploit
 ```
-Next, you paste that copied IP: port combo into any web browser URL bar.
+Next, you paste that copied IP:port combo into any web browser URL bar.
