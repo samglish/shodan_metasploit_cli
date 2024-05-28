@@ -7,13 +7,15 @@ exploit the vulnerability with Shodan in Metasploit and use Sodan in the termina
 <br><br>
 <img src="1.png" width="100%">
 
-## In terminal
-Installing shodan
+## Use shodan CLI
 <hr>
+
+1. Installing shodan
 ```terminal
 pip install -U --user shodan
-```
-show you a list of possible sub-commands for the Shodan CLI.
+``` 
+2. show you a list of possible sub-commands for the Shodan CLI.
 ```terminal
 shodan
 ```
+3. Finally, initialize the Shodan CLI with your <a href="">API key</a>
