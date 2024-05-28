@@ -55,7 +55,8 @@ shodan init YOUR_API_KEY
 
 ## Metasploit
 <hr>
-Install metasploit in linux
+
+### Install metasploit in linux
 
 1. Install the prerequisites.
 ```terminal
