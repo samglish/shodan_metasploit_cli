@@ -110,3 +110,10 @@ sudo msfconsole
 ```terminal
 msf6 > search shodan
 ```
+<img src="3.png" width="100%">
+```terminal
+auxiliary/gather/shodan_host 
+```
+```output
+msf6 auxiliary(gather/shodan_search) > 
+```
