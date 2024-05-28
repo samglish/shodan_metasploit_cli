@@ -112,13 +112,16 @@ sudo msfconsole
 msf6 > search shodan
 ```
 <img src="3.png" width="80%">
+
 ```terminal
 auxiliary/gather/shodan_host 
 ```
+
 ```output
 msf6 auxiliary(gather/shodan_search) > 
 ```
 set your API KEY
+
 ```terminal
 msf6 auxiliary(gather/shodan_search) > set SHODAN_APIKEY 
 ```
