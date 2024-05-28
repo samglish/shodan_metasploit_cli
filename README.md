@@ -64,3 +64,13 @@ sudo apt update
 ```terminal
 sudo apt-get install -y ruby-dev libpq-dev libpcap-dev libsqlite3-dev postgresql git ruby-bundler build-essential patch ruby-dev zlib1g-dev liblzma-dev libgmp-dev
 ```
+2. Create the folder to accommodate the files.
+```terminal
+sudo mkdir /opt/metasploit
+```
+3. Grant the correct permissions to the folder.
+```terminal
+sudo chown $USER:root -R /opt/metasploit
+sudo chmod 770 -R /opt/metasploit
+```
+4. 
