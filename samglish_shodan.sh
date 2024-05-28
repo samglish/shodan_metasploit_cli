@@ -12,7 +12,7 @@ echo "Please wait..."
 pip install -U --user shodan
 echo " "
 read -p "set Your API_KEY" API_KEY
-shodan init YOUR_$API_KEY
+shodan init $API_KEY
 echo " "
 echo " 1. show my IP"
 echo " 2. Scan webcams"
