@@ -117,3 +117,7 @@ auxiliary/gather/shodan_host
 ```output
 msf6 auxiliary(gather/shodan_search) > 
 ```
+set your API KEY
+```terminal
+msf6 auxiliary(gather/shodan_search) > set SHODAN_APIKEY 
+```
