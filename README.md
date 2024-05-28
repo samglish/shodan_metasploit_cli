@@ -73,4 +73,27 @@ sudo mkdir /opt/metasploit
 sudo chown $USER:root -R /opt/metasploit
 sudo chmod 770 -R /opt/metasploit
 ```
-4. 
+4. Clone the msf directory on github to your local folder.
+```terminal
+git clone https://github.com/rapid7/metasploit-framework.git /opt/metasploit
+```
+5. Make the files executable.
+```terminal
+sudo chmod +x /opt/metasploit/
+```
+6. Run the following command to start installing everything Ruby related.
+```terminal
+cd /opt/metasploit
+gem install bundler -v'~>1.16'
+bundle install
+git config --global user.name "NAME HERE"
+git config --global user.email "email@example.com"
+```
+7. Update metasploit.
+```terminal
+sudo /opt/metasploit/msfupdate
+```
+8. Finally launch the metasploit console.
+```terminal
+/opt/metasploit/msfconsole
+```
