@@ -23,7 +23,7 @@ shodan
 shodan init YOUR_API_KEY
 ```
 <hr>
-```output
+
 Usage: shodan [OPTIONS] COMMAND [ARGS]...
 
 Options:
@@ -50,4 +50,3 @@ Commands:
   stream      Stream data in real-time.
   trends      Search Shodan historical database
   version     Print version of this tool.
-```
