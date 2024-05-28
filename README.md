@@ -98,3 +98,10 @@ sudo /opt/metasploit/msfupdate
 ```terminal
 /opt/metasploit/msfconsole
 ```
+<hr>
+
+## Test vulnerability with metasploit 
+Find Vulnerable Webcams with Shodan [Metasploit Framework]
+```terminal
+sudo msfconsole
+```
