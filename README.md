@@ -105,3 +105,8 @@ Find Vulnerable Webcams with Shodan [Metasploit Framework]
 ```terminal
 sudo msfconsole
 ```
+<img src="2.png" width="100%">
+
+```terminal
+msf6 > search shodan
+```
