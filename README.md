@@ -24,12 +24,13 @@ shodan init YOUR_API_KEY
 ```
 <hr>
 
-Usage: shodan [OPTIONS] COMMAND [ARGS]... </br>
-</br>
-Options: </br></br>
+`Usage:` shodan [OPTIONS] COMMAND [ARGS]... </br>
+
+`Options:` </br>
   -h, --help  Show this message and exit.
-</br></br>
-Commands:</br></br>
+</br>
+
+`Commands:` </br>
   
   `alert`       Manage the network alerts for your account</br> 
   `convert`     Convert the given input data file into a different format.</br>
