@@ -136,3 +136,5 @@ msf6 auxiliary(gather/shodan_search) > exploit
 Next, you paste that copied IP:port combo into any web browser URL bar.
 
 <hr>
+
+my script  `samglish_shodan.sh`
