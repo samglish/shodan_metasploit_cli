@@ -52,3 +52,15 @@ shodan init YOUR_API_KEY
   `stream`      Stream data in real-time.</br>
   `trends`      Search Shodan historical database</br>
   `version`     Print version of this tool.</br>
+
+## Metasploit
+<hr>
+Install metasploit in linux
+
+1. Install the prerequisites.
+```terminal
+sudo apt update
+```
+```terminal
+sudo apt-get install -y ruby-dev libpq-dev libpcap-dev libsqlite3-dev postgresql git ruby-bundler build-essential patch ruby-dev zlib1g-dev liblzma-dev libgmp-dev
+```
