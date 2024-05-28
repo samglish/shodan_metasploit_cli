@@ -8,6 +8,12 @@ exploit the vulnerability with Shodan in Metasploit and use Sodan in the termina
 <img src="1.png" width="100%">
 
 ## In terminal
-Installing shodan with apt.
+Installing shodan
 <hr>
-
+```terminal
+pip install -U --user shodan
+```
+show you a list of possible sub-commands for the Shodan CLI.
+```terminal
+shodan
+```
