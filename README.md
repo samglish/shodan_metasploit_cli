@@ -24,29 +24,29 @@ shodan init YOUR_API_KEY
 ```
 <hr>
 
-Usage: shodan [OPTIONS] COMMAND [ARGS]...
+Usage: shodan [OPTIONS] COMMAND [ARGS]... </br>
 
-Options:
+Options: </br>
   -h, --help  Show this message and exit.
-
-Commands:
-  alert       Manage the network alerts for your account
-  convert     Convert the given input data file into a different format.
-  count       Returns the number of results for a search
-  data        Bulk data access to Shodan
-  domain      View all available information for a domain
-  download    Download search results and save them in a compressed JSON...
-  honeyscore  Check whether the IP is a honeypot or not.
-  host        View all available information for an IP address
-  info        Shows general information about your account
-  init        Initialize the Shodan command-line
-  myip        Print your external IP address
-  org         Manage your organization's access to Shodan
-  parse       Extract information out of compressed JSON files.
-  radar       Real-Time Map of some results as Shodan finds them.
-  scan        Scan an IP/ netblock using Shodan.
-  search      Search the Shodan database
-  stats       Provide summary information about a search query
-  stream      Stream data in real-time.
-  trends      Search Shodan historical database
-  version     Print version of this tool.
+</br>
+Commands:</br>
+  alert       Manage the network alerts for your account</br>
+  convert     Convert the given input data file into a different format.</br>
+  count       Returns the number of results for a search</br>
+  data        Bulk data access to Shodan</br>
+  domain      View all available information for a domain</br>
+  download    Download search results and save them in a compressed JSON...</br>
+  honeyscore  Check whether the IP is a honeypot or not.</br>
+  host        View all available information for an IP address</br>
+  info        Shows general information about your account</br>
+  init        Initialize the Shodan command-line</br>
+  myip        Print your external IP address</br>
+  org         Manage your organization's access to Shodan</br>
+  parse       Extract information out of compressed JSON files.</br>
+  radar       Real-Time Map of some results as Shodan finds them.</br>
+  scan        Scan an IP/ netblock using Shodan.</br>
+  search      Search the Shodan database</br>
+  stats       Provide summary information about a search query</br>
+  stream      Stream data in real-time.</br>
+  trends      Search Shodan historical database</br>
+  version     Print version of this tool.</br>
