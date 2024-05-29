@@ -26,19 +26,26 @@ read -p "Choix : " choix
 if [ $choix -eq 1 ];
 then
 shodan myip
-else if [ $choix -eq 2 ];
+elif [ $choix -eq 2 ];
+then
 shodan search 'product:"webcam"'
-else if [ $choix -eq 3 ];
+elif [ $choix -eq 3 ];
+then
 shodan search 'product:"server"'
-else if [ $choix -eq 4 ];
+elif [ $choix -eq 4 ];
+then
 shodan search 'product:"router"'
-else if [ $choix -eq 5 ];
+elif [ $choix -eq 5 ];
+then
 shodan search 'product:"printer"'
-else if [ $choix -eq 6 ];
+elif [ $choix -eq 6 ];
+then
 shodan search 'product:"switch"'
-else if [ $choix -eq 7 ];
+elif [ $choix -eq 7 ];
+then
 shodan search 'product:"camera"'
-else if [ $choix -eq 8 ];
+elif [ $choix -eq 8 ];
+then
 shodan search 'product:"sensor"'
 else
 echo "Error"
